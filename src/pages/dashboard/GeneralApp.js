@@ -1,10 +1,11 @@
-import React from "react";
+import React, { Suspense, lazy } from "react";
+import Chats from "./chats";
 
 const GeneralApp = () => {
 
   return (
     <>
-      App
+      <Chats />
     </>
   );
 };
